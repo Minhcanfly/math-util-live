@@ -12,8 +12,9 @@ public class MathUtil {
 
     public static long getFactorial(int n) {
         if (n < 0 || n > 20) {
-            throw new IllegalArgumentException("Chiu");
+            throw new IllegalArgumentException("Loi. Yeu cau nhap lai");
         }
+        //Hello
         if (n == 0 || n == 1) {
             return 1;
         }

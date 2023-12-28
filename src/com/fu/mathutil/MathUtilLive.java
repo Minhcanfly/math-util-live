@@ -17,6 +17,9 @@ public class MathUtilLive {
         // TODO code application logic here
         long result = MathUtil.getFactorial(5);
         System.out.println("Check = 120: " + result);
+        //Them code 28/12/2023
+        System.out.println("Check = 6: " + MathUtil.getFactorial(3));
+               
     }
     
 }
